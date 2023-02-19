@@ -145,7 +145,7 @@ Public Class frmGrafico
         Fase1 = CSng(Form2.TextBox7.Text)
         Fase2 = CSng(Form2.TextBox8.Text)
         Fase3 = CSng(Form2.TextBox9.Text)
-        If maxX < Frequenza1 + Frequenza2 + Frequenza3 Then maxX = Frequenza1 + Frequenza2 + Frequenza3
+If maxX < Frequenza1 + Frequenza2 + Frequenza3 Then maxX = 2 'Frequenza1 + Frequenza2 + Frequenza3
         If maxY < Ampiezza1 + Ampiezza2 + Ampiezza3 Then maxY = Ampiezza1 + Ampiezza2 + Ampiezza3
         minX = -maxX
         minY = -maxY
